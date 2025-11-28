@@ -39,11 +39,15 @@ st.markdown("**ngan**: Ngan | **nguyen**: Nguyen | **thao**: Thao | **uit**: Uni
 # ----------------------------
 @st.cache_data
 def get_facts_list(predicate):
-    return [f['X'] for f in list(prolog.query(f"{predicate}(X)"))]
+    p = Prolog()
+    p.consult("knowledge.pl")
+    return [f['X'] for f in list(p.query(f"{predicate}(X)"))]
 
 @st.cache_data
 def get_relation_list(predicate):
-    return [(f['X'], f['Y']) for f in list(prolog.query(f"{predicate}(X,Y)"))]
+    p = Prolog()
+    p.consult("knowledge.pl")
+    return [(f['X'], f['Y']) for f in list(p.query(f"{predicate}(X,Y)"))]
 
 with st.expander("📜 Xem facts ngắn gọn", expanded=True):
     if st.button("Load facts ngắn gọn"):
