@@ -2,36 +2,43 @@ import streamlit as st
 from pyswip import Prolog
 from utils import nl_to_prolog
 
-# ----------------------------
-# Khởi tạo Prolog
-# ----------------------------
-prolog = Prolog()
-prolog.consult("assets/knowledge2.pl")
+# =====================================================
+# Helper: tạo Prolog engine mới
+# =====================================================
+def new_prolog(kb_path="assets/knowledge2.pl"):
+    p = Prolog()
+    p.consult(kb_path)
+    return p
 
-# ----------------------------
-# Hàm query Prolog
-# ----------------------------
+
+# =====================================================
+# Hàm query Prolog (AN TOÀN)
+# =====================================================
 def query_prolog(query_str):
     try:
-        results = list(prolog.query(query_str))
+        p = new_prolog()
+        results = list(p.query(query_str))  # consume hết generator
+
         if not results:
             return False
         if all(isinstance(r, dict) and len(r) == 0 for r in results):
             return True
         return results
+
     except Exception as e:
         return {"error": str(e)}
 
-# ----------------------------
+
+# =====================================================
 # Streamlit UI
-# ----------------------------
+# =====================================================
 st.set_page_config(page_title="Prolog Query App", layout="wide")
 st.title("🧩 Prolog Query App")
 st.markdown("Ứng dụng cho phép bạn query knowledge base bằng **Prolog**.")
 
-# ----------------------------
+# =====================================================
 # Chú thích ký hiệu
-# ----------------------------
+# =====================================================
 st.subheader("📝 Chú thích các ký hiệu")
 st.markdown(
     "**ngan**: Ngan | **nguyen**: Nguyen | **thao**: Thao | "
@@ -42,20 +49,20 @@ st.markdown(
     "**ld**: Nguyen's dad | **lm**: Nguyen's mom"
 )
 
-# ----------------------------
-# Section 1: Facts ngắn gọn
-# ----------------------------
+# =====================================================
+# Section 1: Facts ngắn gọn (CACHE OK)
+# =====================================================
 @st.cache_data
 def get_facts_list(predicate):
-    p = Prolog()
-    p.consult("assets/knowledge.pl")
-    return [f["X"] for f in p.query(f"{predicate}(X)")]
+    p = new_prolog("assets/knowledge.pl")
+    return [f["X"] for f in list(p.query(f"{predicate}(X)"))]
+
 
 @st.cache_data
 def get_relation_list(predicate):
-    p = Prolog()
-    p.consult("assets/knowledge.pl")
-    return [(f["X"], f["Y"]) for f in p.query(f"{predicate}(X,Y)")]
+    p = new_prolog("assets/knowledge.pl")
+    return [(f["X"], f["Y"]) for f in list(p.query(f"{predicate}(X,Y)"))]
+
 
 with st.expander("📜 Xem facts ngắn gọn", expanded=True):
     if st.button("Load facts ngắn gọn"):
@@ -76,19 +83,20 @@ with st.expander("📜 Xem facts ngắn gọn", expanded=True):
         jobs = get_relation_list("job")
         st.success(", ".join([f"{x}-{y}" for x, y in jobs]))
 
-# ----------------------------
-# Section 2: Tất cả facts
-# ----------------------------
+# =====================================================
+# Section 2: Tất cả predicates
+# =====================================================
 with st.expander("📜 Xem tất cả facts trong Knowledge Base"):
     if st.button("Load tất cả facts"):
+        p = new_prolog()
         all_facts = [
             f"{f['P']}/{f['A']}"
-            for f in prolog.query("current_predicate(P/A)")
+            for f in list(p.query("current_predicate(P/A)"))
         ]
         st.code("\n".join(all_facts))
 
 # =====================================================
-# Section 3: NL → Prolog → Run (UX chuẩn)
+# Section 3: NL → Prolog → Run
 # =====================================================
 st.subheader("🔍 Thực hiện Query Prolog")
 
@@ -99,7 +107,7 @@ if "prolog_query" not in st.session_state:
 # Toggle NLP
 use_nl = st.toggle("🤖 Dùng ngôn ngữ tự nhiên để tạo Prolog?", value=False)
 
-# ----------- Ngôn ngữ tự nhiên -----------
+# ----------- NL input -----------
 if use_nl:
     st.markdown("### 🤖 Câu hỏi ngôn ngữ tự nhiên")
     nl_question = st.text_input(
@@ -116,9 +124,8 @@ if use_nl:
             else:
                 st.error("❌ Không thể chuyển câu hỏi sang Prolog")
 
-# ----------- Ô nhập Prolog (CHUẨN STATE) -----------
+# ----------- Prolog input -----------
 st.markdown("### 🧩 Câu lệnh Prolog")
-
 st.text_input(
     "Nhập hoặc chỉnh sửa câu lệnh Prolog:",
     key="prolog_query"
@@ -126,10 +133,12 @@ st.text_input(
 
 # ----------- Run Query -----------
 if st.button("▶️ Run Query"):
-    query = st.session_state.prolog_query
+    query = st.session_state.prolog_query.strip()
 
-    if query.strip():
-        results = query_prolog(query.strip())
+    if not query:
+        st.warning("⚠️ Vui lòng nhập câu lệnh Prolog")
+    else:
+        results = query_prolog(query)
 
         if isinstance(results, bool):
             st.success(f"✅ Result: {results}")
@@ -140,11 +149,9 @@ if st.button("▶️ Run Query"):
             st.error(f"❌ Error: {results['error']}")
         else:
             st.write(results)
-    else:
-        st.warning("⚠️ Vui lòng nhập câu lệnh Prolog")
 
-# ----------------------------
+# =====================================================
 # Footer
-# ----------------------------
+# =====================================================
 st.markdown("---")
 st.markdown("Ứng dụng được xây dựng bằng **Streamlit** và **SWI-Prolog**.")
