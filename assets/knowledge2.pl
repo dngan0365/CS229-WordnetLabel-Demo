@@ -1,3 +1,6 @@
+
+% Bãi biển ở VT
+abator(an).
 abator(ld).
 abator(lm).
 abator(nd).
@@ -7,6 +10,7 @@ abator(nm).
 abator(td).
 abator(thao).
 abator(tm).
+abjurer(an).
 abjurer(ld).
 abjurer(lm).
 abjurer(nd).
@@ -16,6 +20,7 @@ abjurer(nm).
 abjurer(td).
 abjurer(thao).
 abjurer(tm).
+abomination(an).
 abomination(ld).
 abomination(lm).
 abomination(nd).
@@ -25,6 +30,7 @@ abomination(nm).
 abomination(td).
 abomination(thao).
 abomination(tm).
+abstainer(an).
 abstainer(ld).
 abstainer(lm).
 abstainer(nd).
@@ -34,6 +40,7 @@ abstainer(nm).
 abstainer(td).
 abstainer(thao).
 abstainer(tm).
+achiever(an).
 achiever(ld).
 achiever(lm).
 achiever(nd).
@@ -43,6 +50,7 @@ achiever(nm).
 achiever(td).
 achiever(thao).
 achiever(tm).
+acquaintance(an).
 acquaintance(ld).
 acquaintance(lm).
 acquaintance(nd).
@@ -52,6 +60,7 @@ acquaintance(nm).
 acquaintance(td).
 acquaintance(thao).
 acquaintance(tm).
+acquirer(an).
 acquirer(ld).
 acquirer(lm).
 acquirer(nd).
@@ -61,6 +70,7 @@ acquirer(nm).
 acquirer(td).
 acquirer(thao).
 acquirer(tm).
+active(an).
 active(ld).
 active(lm).
 active(nd).
@@ -70,6 +80,7 @@ active(nm).
 active(td).
 active(thao).
 active(tm).
+actor(an).
 actor(ld).
 actor(lm).
 actor(nd).
@@ -79,6 +90,7 @@ actor(nm).
 actor(td).
 actor(thao).
 actor(tm).
+adjudicator(an).
 adjudicator(ld).
 adjudicator(lm).
 adjudicator(nd).
@@ -88,6 +100,7 @@ adjudicator(nm).
 adjudicator(td).
 adjudicator(thao).
 adjudicator(tm).
+admirer(an).
 admirer(ld).
 admirer(lm).
 admirer(nd).
@@ -97,6 +110,7 @@ admirer(nm).
 admirer(td).
 admirer(thao).
 admirer(tm).
+adoptee(an).
 adoptee(ld).
 adoptee(lm).
 adoptee(nd).
@@ -108,6 +122,7 @@ adoptee(thao).
 adoptee(tm).
 adore(Y, bh) :- person(Y).
 adore(Y, H) :- (Y = ngan ; Y = thao ; Y = nguyen), hometown(Y, H).
+adult(an).
 adult(ld).
 adult(lm).
 adult(nd).
@@ -117,6 +132,7 @@ adult(nm).
 adult(td).
 adult(thao).
 adult(tm).
+adventurer(an).
 adventurer(ld).
 adventurer(lm).
 adventurer(nd).
@@ -126,6 +142,7 @@ adventurer(nm).
 adventurer(td).
 adventurer(thao).
 adventurer(tm).
+adversary(an).
 adversary(ld).
 adversary(lm).
 adversary(nd).
@@ -135,6 +152,7 @@ adversary(nm).
 adversary(td).
 adversary(thao).
 adversary(tm).
+advisee(an).
 advisee(ld).
 advisee(lm).
 advisee(nd).
@@ -144,6 +162,7 @@ advisee(nm).
 advisee(td).
 advisee(thao).
 advisee(tm).
+advocate(an).
 advocate(ld).
 advocate(lm).
 advocate(nd).
@@ -153,6 +172,7 @@ advocate(nm).
 advocate(td).
 advocate(thao).
 advocate(tm).
+affiant(an).
 affiant(ld).
 affiant(lm).
 affiant(nd).
@@ -162,6 +182,7 @@ affiant(nm).
 affiant(td).
 affiant(thao).
 affiant(tm).
+african(an).
 african(ld).
 african(lm).
 african(nd).
@@ -171,6 +192,7 @@ african(nm).
 african(td).
 african(thao).
 african(tm).
+agnostic(an).
 agnostic(ld).
 agnostic(lm).
 agnostic(nd).
@@ -188,6 +210,7 @@ alter_ego(nguyen, ngan).
 alter_ego(nguyen, thao).
 alter_ego(thao, ngan).
 alter_ego(thao, nguyen).
+amateur(an).
 amateur(ld).
 amateur(lm).
 amateur(nd).
@@ -197,6 +220,7 @@ amateur(nm).
 amateur(td).
 amateur(thao).
 amateur(tm).
+amerindian(an).
 amerindian(ld).
 amerindian(lm).
 amerindian(nd).
@@ -212,6 +236,7 @@ amigo(nguyen, ngan).
 amigo(nguyen, thao).
 amigo(thao, ngan).
 amigo(thao, nguyen).
+ancient(an).
 ancient(ld).
 ancient(lm).
 ancient(nd).
@@ -222,6 +247,7 @@ ancient(td).
 ancient(thao).
 ancient(tm).
 angler(td).
+anomaly(an).
 anomaly(ld).
 anomaly(lm).
 anomaly(nd).
@@ -231,6 +257,7 @@ anomaly(nm).
 anomaly(td).
 anomaly(thao).
 anomaly(tm).
+anti(an).
 anti(ld).
 anti(lm).
 anti(nd).
@@ -240,6 +267,7 @@ anti(nm).
 anti(td).
 anti(thao).
 anti(tm).
+anti_american(an).
 anti_american(ld).
 anti_american(lm).
 anti_american(nd).
@@ -249,6 +277,7 @@ anti_american(nm).
 anti_american(td).
 anti_american(thao).
 anti_american(tm).
+applicant(an).
 applicant(ld).
 applicant(lm).
 applicant(nd).
@@ -258,6 +287,7 @@ applicant(nm).
 applicant(td).
 applicant(thao).
 applicant(tm).
+appointee(an).
 appointee(ld).
 appointee(lm).
 appointee(nd).
@@ -267,6 +297,7 @@ appointee(nm).
 appointee(td).
 appointee(thao).
 appointee(tm).
+appreciator(an).
 appreciator(ld).
 appreciator(lm).
 appreciator(nd).
@@ -276,6 +307,7 @@ appreciator(nm).
 appreciator(td).
 appreciator(thao).
 appreciator(tm).
+apprehender(an).
 apprehender(ld).
 apprehender(lm).
 apprehender(nd).
@@ -285,6 +317,7 @@ apprehender(nm).
 apprehender(td).
 apprehender(thao).
 apprehender(tm).
+aquarius(an).
 aquarius(ld).
 aquarius(lm).
 aquarius(nd).
@@ -294,6 +327,7 @@ aquarius(nm).
 aquarius(td).
 aquarius(thao).
 aquarius(tm).
+archaist(an).
 archaist(ld).
 archaist(lm).
 archaist(nd).
@@ -303,6 +337,7 @@ archaist(nm).
 archaist(td).
 archaist(thao).
 archaist(tm).
+aries(an).
 aries(ld).
 aries(lm).
 aries(nd).
@@ -312,6 +347,7 @@ aries(nm).
 aries(td).
 aries(thao).
 aries(tm).
+arrogator(an).
 arrogator(ld).
 arrogator(lm).
 arrogator(nd).
@@ -324,6 +360,7 @@ arrogator(tm).
 art_student(ngan).
 art_student(nguyen).
 art_student(thao).
+assessee(an).
 assessee(ld).
 assessee(lm).
 assessee(nd).
@@ -333,6 +370,7 @@ assessee(nm).
 assessee(td).
 assessee(thao).
 assessee(tm).
+asthmatic(an).
 asthmatic(ld).
 asthmatic(lm).
 asthmatic(nd).
@@ -348,6 +386,7 @@ at(thao, uit).
 auditor(ngan).
 auditor(nguyen).
 auditor(thao).
+authority(an).
 authority(ld).
 authority(lm).
 authority(nd).
@@ -357,6 +396,7 @@ authority(nm).
 authority(td).
 authority(thao).
 authority(tm).
+autodidact(an).
 autodidact(ld).
 autodidact(lm).
 autodidact(nd).
@@ -366,6 +406,7 @@ autodidact(nm).
 autodidact(td).
 autodidact(thao).
 autodidact(tm).
+baby_boomer(an).
 baby_boomer(ld).
 baby_boomer(lm).
 baby_boomer(nd).
@@ -375,6 +416,7 @@ baby_boomer(nm).
 baby_boomer(td).
 baby_boomer(thao).
 baby_boomer(tm).
+baby_buster(an).
 baby_buster(ld).
 baby_buster(lm).
 baby_buster(nd).
@@ -384,6 +426,7 @@ baby_buster(nm).
 baby_buster(td).
 baby_buster(thao).
 baby_buster(tm).
+bad_guy(an).
 bad_guy(ld).
 bad_guy(lm).
 bad_guy(nd).
@@ -393,6 +436,7 @@ bad_guy(nm).
 bad_guy(td).
 bad_guy(thao).
 bad_guy(tm).
+bad_person(an).
 bad_person(ld).
 bad_person(lm).
 bad_person(nd).
@@ -402,6 +446,7 @@ bad_person(nm).
 bad_person(td).
 bad_person(thao).
 bad_person(tm).
+baldhead(an).
 baldhead(ld).
 baldhead(lm).
 baldhead(nd).
@@ -411,6 +456,7 @@ baldhead(nm).
 baldhead(td).
 baldhead(thao).
 baldhead(tm).
+balker(an).
 balker(ld).
 balker(lm).
 balker(nd).
@@ -420,6 +466,7 @@ balker(nm).
 balker(td).
 balker(thao).
 balker(tm).
+bather(an).
 bather(ld).
 bather(lm).
 bather(nd).
@@ -433,6 +480,7 @@ be_born(ngan, vt).
 be_born(nguyen, gl).
 be_born(thao, vt).
 beach(bh).
+beard(an).
 beard(ld).
 beard(lm).
 beard(nd).
@@ -443,6 +491,7 @@ beard(td).
 beard(thao).
 beard(tm).
 beautiful(bh).
+bedfellow(an).
 bedfellow(ld).
 bedfellow(lm).
 bedfellow(nd).
@@ -454,6 +503,7 @@ bedfellow(thao).
 bedfellow(tm).
 beekeeper(ld).
 beekeeper(lm).
+bereaved(an).
 bereaved(ld).
 bereaved(lm).
 bereaved(nd).
@@ -463,6 +513,7 @@ bereaved(nm).
 bereaved(td).
 bereaved(thao).
 bereaved(tm).
+best(an).
 best(ld).
 best(lm).
 best(nd).
@@ -478,6 +529,7 @@ best_friend(nguyen, ngan).
 best_friend(nguyen, thao).
 best_friend(thao, ngan).
 best_friend(thao, nguyen).
+birth(an).
 birth(ld).
 birth(lm).
 birth(nd).
@@ -487,6 +539,7 @@ birth(nm).
 birth(td).
 birth(thao).
 birth(tm).
+biter(an).
 biter(ld).
 biter(lm).
 biter(nd).
@@ -496,6 +549,7 @@ biter(nm).
 biter(td).
 biter(thao).
 biter(tm).
+black(an).
 black(ld).
 black(lm).
 black(nd).
@@ -505,6 +559,7 @@ black(nm).
 black(td).
 black(thao).
 black(tm).
+blogger(an).
 blogger(ld).
 blogger(lm).
 blogger(nd).
@@ -514,6 +569,7 @@ blogger(nm).
 blogger(td).
 blogger(thao).
 blogger(tm).
+blond(an).
 blond(ld).
 blond(lm).
 blond(nd).
@@ -523,6 +579,7 @@ blond(nm).
 blond(td).
 blond(thao).
 blond(tm).
+bluecoat(an).
 bluecoat(ld).
 bluecoat(lm).
 bluecoat(nd).
@@ -532,6 +589,7 @@ bluecoat(nm).
 bluecoat(td).
 bluecoat(thao).
 bluecoat(tm).
+bodybuilder(an).
 bodybuilder(ld).
 bodybuilder(lm).
 bodybuilder(nd).
@@ -541,6 +599,7 @@ bodybuilder(nm).
 bodybuilder(td).
 bodybuilder(thao).
 bodybuilder(tm).
+bomber(an).
 bomber(ld).
 bomber(lm).
 bomber(nd).
@@ -558,6 +617,7 @@ brother(nguyen, ngan).
 brother(nguyen, thao).
 brother(thao, ngan).
 brother(thao, nguyen).
+brunet(an).
 brunet(ld).
 brunet(lm).
 brunet(nd).
@@ -573,6 +633,7 @@ buddy(nguyen, ngan).
 buddy(nguyen, thao).
 buddy(thao, ngan).
 buddy(thao, nguyen).
+bullfighter(an).
 bullfighter(ld).
 bullfighter(lm).
 bullfighter(nd).
@@ -582,6 +643,7 @@ bullfighter(nm).
 bullfighter(td).
 bullfighter(thao).
 bullfighter(tm).
+buster(an).
 buster(ld).
 buster(lm).
 buster(nd).
@@ -591,6 +653,7 @@ buster(nm).
 buster(td).
 buster(thao).
 buster(tm).
+cancer(an).
 cancer(ld).
 cancer(lm).
 cancer(nd).
@@ -600,6 +663,7 @@ cancer(nm).
 cancer(td).
 cancer(thao).
 cancer(tm).
+candidate(an).
 candidate(ld).
 candidate(lm).
 candidate(nd).
@@ -609,6 +673,7 @@ candidate(nm).
 candidate(td).
 candidate(thao).
 candidate(tm).
+capitalist(an).
 capitalist(ld).
 capitalist(lm).
 capitalist(nd).
@@ -618,6 +683,7 @@ capitalist(nm).
 capitalist(td).
 capitalist(thao).
 capitalist(tm).
+capricorn(an).
 capricorn(ld).
 capricorn(lm).
 capricorn(nd).
@@ -627,6 +693,7 @@ capricorn(nm).
 capricorn(td).
 capricorn(thao).
 capricorn(tm).
+captor(an).
 captor(ld).
 captor(lm).
 captor(nd).
@@ -638,6 +705,7 @@ captor(thao).
 captor(tm).
 care_for(Y, bh) :- person(Y).
 care_for(Y, H) :- (Y = ngan ; Y = thao ; Y = nguyen), hometown(Y, H).
+case(an).
 case(ld).
 case(lm).
 case(nd).
@@ -647,6 +715,7 @@ case(nm).
 case(td).
 case(thao).
 case(tm).
+cashier(an).
 cashier(ld).
 cashier(lm).
 cashier(nd).
@@ -659,6 +728,7 @@ cashier(tm).
 catechumen(ngan).
 catechumen(nguyen).
 catechumen(thao).
+causal_agent(an).
 causal_agent(ld).
 causal_agent(lm).
 causal_agent(nd).
@@ -668,6 +738,7 @@ causal_agent(nm).
 causal_agent(td).
 causal_agent(thao).
 causal_agent(tm).
+celebrant(an).
 celebrant(ld).
 celebrant(lm).
 celebrant(nd).
@@ -677,6 +748,7 @@ celebrant(nm).
 celebrant(td).
 celebrant(thao).
 celebrant(tm).
+censor(an).
 censor(ld).
 censor(lm).
 censor(nd).
@@ -686,6 +758,7 @@ censor(nm).
 censor(td).
 censor(thao).
 censor(tm).
+chameleon(an).
 chameleon(ld).
 chameleon(lm).
 chameleon(nd).
@@ -695,6 +768,7 @@ chameleon(nm).
 chameleon(td).
 chameleon(thao).
 chameleon(tm).
+changer(an).
 changer(ld).
 changer(lm).
 changer(nd).
@@ -704,6 +778,7 @@ changer(nm).
 changer(td).
 changer(thao).
 changer(tm).
+charmer(an).
 charmer(ld).
 charmer(lm).
 charmer(nd).
@@ -713,6 +788,7 @@ charmer(nm).
 charmer(td).
 charmer(thao).
 charmer(tm).
+child(an).
 child(ld).
 child(lm).
 child(nd).
@@ -722,6 +798,7 @@ child(nm).
 child(td).
 child(thao).
 child(tm).
+chutzpanik(an).
 chutzpanik(ld).
 chutzpanik(lm).
 chutzpanik(nd).
@@ -733,6 +810,7 @@ chutzpanik(thao).
 chutzpanik(tm).
 city(gl).
 city(vt).
+closer(an).
 closer(ld).
 closer(lm).
 closer(nd).
@@ -742,6 +820,7 @@ closer(nm).
 closer(td).
 closer(thao).
 closer(tm).
+clumsy_person(an).
 clumsy_person(ld).
 clumsy_person(lm).
 clumsy_person(nd).
@@ -752,6 +831,7 @@ clumsy_person(td).
 clumsy_person(thao).
 clumsy_person(tm).
 coastal(vt).
+collector(an).
 collector(ld).
 collector(lm).
 collector(nd).
@@ -764,6 +844,7 @@ collector(tm).
 collegian(ngan).
 collegian(nguyen).
 collegian(thao).
+color_blind_person(an).
 color_blind_person(ld).
 color_blind_person(lm).
 color_blind_person(nd).
@@ -773,6 +854,7 @@ color_blind_person(nm).
 color_blind_person(td).
 color_blind_person(thao).
 color_blind_person(tm).
+combatant(an).
 combatant(ld).
 combatant(lm).
 combatant(nd).
@@ -782,6 +864,7 @@ combatant(nm).
 combatant(td).
 combatant(thao).
 combatant(tm).
+commoner(an).
 commoner(ld).
 commoner(lm).
 commoner(nd).
@@ -791,6 +874,7 @@ commoner(nm).
 commoner(td).
 commoner(thao).
 commoner(tm).
+communicator(an).
 communicator(ld).
 communicator(lm).
 communicator(nd).
@@ -806,6 +890,7 @@ companion(nguyen, ngan).
 companion(nguyen, thao).
 companion(thao, ngan).
 companion(thao, nguyen).
+complexifier(an).
 complexifier(ld).
 complexifier(lm).
 complexifier(nd).
@@ -815,6 +900,7 @@ complexifier(nm).
 complexifier(td).
 complexifier(thao).
 complexifier(tm).
+compulsive(an).
 compulsive(ld).
 compulsive(lm).
 compulsive(nd).
@@ -824,6 +910,7 @@ compulsive(nm).
 compulsive(td).
 compulsive(thao).
 compulsive(tm).
+computer_user(an).
 computer_user(ld).
 computer_user(lm).
 computer_user(nd).
@@ -841,6 +928,7 @@ confidant(thao, ngan).
 confidant(thao, nguyen).
 contadino(ld).
 contadino(lm).
+contemplative(an).
 contemplative(ld).
 contemplative(lm).
 contemplative(nd).
@@ -850,6 +938,7 @@ contemplative(nm).
 contemplative(td).
 contemplative(thao).
 contemplative(tm).
+contestant(an).
 contestant(ld).
 contestant(lm).
 contestant(nd).
@@ -859,6 +948,7 @@ contestant(nm).
 contestant(td).
 contestant(thao).
 contestant(tm).
+convert(an).
 convert(ld).
 convert(lm).
 convert(nd).
@@ -868,6 +958,7 @@ convert(nm).
 convert(td).
 convert(thao).
 convert(tm).
+copycat(an).
 copycat(ld).
 copycat(lm).
 copycat(nd).
@@ -877,6 +968,7 @@ copycat(nm).
 copycat(td).
 copycat(thao).
 copycat(tm).
+counter(an).
 counter(ld).
 counter(lm).
 counter(nd).
@@ -886,6 +978,7 @@ counter(nm).
 counter(td).
 counter(thao).
 counter(tm).
+counterterrorist(an).
 counterterrorist(ld).
 counterterrorist(lm).
 counterterrorist(nd).
@@ -895,6 +988,7 @@ counterterrorist(nm).
 counterterrorist(td).
 counterterrorist(thao).
 counterterrorist(tm).
+coward(an).
 coward(ld).
 coward(lm).
 coward(nd).
@@ -907,6 +1001,7 @@ coward(tm).
 crammer(ngan).
 crammer(nguyen).
 crammer(thao).
+crawler(an).
 crawler(ld).
 crawler(lm).
 crawler(nd).
@@ -916,6 +1011,7 @@ crawler(nm).
 crawler(td).
 crawler(thao).
 crawler(tm).
+creator(an).
 creator(ld).
 creator(lm).
 creator(nd).
@@ -925,6 +1021,7 @@ creator(nm).
 creator(td).
 creator(thao).
 creator(tm).
+creature(an).
 creature(ld).
 creature(lm).
 creature(nd).
@@ -934,6 +1031,7 @@ creature(nm).
 creature(td).
 creature(thao).
 creature(tm).
+creditor(an).
 creditor(ld).
 creditor(lm).
 creditor(nd).
@@ -943,6 +1041,7 @@ creditor(nm).
 creditor(td).
 creditor(thao).
 creditor(tm).
+cripple(an).
 cripple(ld).
 cripple(lm).
 cripple(nd).
@@ -963,6 +1062,7 @@ daddy(nd).
 daddy(td).
 dairyman(ld).
 dairyman(lm).
+dancer(an).
 dancer(ld).
 dancer(lm).
 dancer(nd).
@@ -972,6 +1072,7 @@ dancer(nm).
 dancer(td).
 dancer(thao).
 dancer(tm).
+dead_person(an).
 dead_person(ld).
 dead_person(lm).
 dead_person(nd).
@@ -981,6 +1082,7 @@ dead_person(nm).
 dead_person(td).
 dead_person(thao).
 dead_person(tm).
+deaf_person(an).
 deaf_person(ld).
 deaf_person(lm).
 deaf_person(nd).
@@ -990,6 +1092,7 @@ deaf_person(nm).
 deaf_person(td).
 deaf_person(thao).
 deaf_person(tm).
+debaser(an).
 debaser(ld).
 debaser(lm).
 debaser(nd).
@@ -999,6 +1102,7 @@ debaser(nm).
 debaser(td).
 debaser(thao).
 debaser(tm).
+debtor(an).
 debtor(ld).
 debtor(lm).
 debtor(nd).
@@ -1008,6 +1112,7 @@ debtor(nm).
 debtor(td).
 debtor(thao).
 debtor(tm).
+defecator(an).
 defecator(ld).
 defecator(lm).
 defecator(nd).
@@ -1017,6 +1122,7 @@ defecator(nm).
 defecator(td).
 defecator(thao).
 defecator(tm).
+delayer(an).
 delayer(ld).
 delayer(lm).
 delayer(nd).
@@ -1026,6 +1132,7 @@ delayer(nm).
 delayer(td).
 delayer(thao).
 delayer(tm).
+deliverer(an).
 deliverer(ld).
 deliverer(lm).
 deliverer(nd).
@@ -1035,6 +1142,7 @@ deliverer(nm).
 deliverer(td).
 deliverer(thao).
 deliverer(tm).
+demander(an).
 demander(ld).
 demander(lm).
 demander(nd).
@@ -1044,6 +1152,7 @@ demander(nm).
 demander(td).
 demander(thao).
 demander(tm).
+dieter(an).
 dieter(ld).
 dieter(lm).
 dieter(nd).
@@ -1053,6 +1162,7 @@ dieter(nm).
 dieter(td).
 dieter(thao).
 dieter(tm).
+differentiator(an).
 differentiator(ld).
 differentiator(lm).
 differentiator(nd).
@@ -1062,6 +1172,7 @@ differentiator(nm).
 differentiator(td).
 differentiator(thao).
 differentiator(tm).
+disentangler(an).
 disentangler(ld).
 disentangler(lm).
 disentangler(nd).
@@ -1071,6 +1182,7 @@ disentangler(nm).
 disentangler(td).
 disentangler(thao).
 disentangler(tm).
+disputant(an).
 disputant(ld).
 disputant(lm).
 disputant(nd).
@@ -1080,6 +1192,7 @@ disputant(nm).
 disputant(td).
 disputant(thao).
 disputant(tm).
+dissenter(an).
 dissenter(ld).
 dissenter(lm).
 dissenter(nd).
@@ -1089,6 +1202,7 @@ dissenter(nm).
 dissenter(td).
 dissenter(thao).
 dissenter(tm).
+divider(an).
 divider(ld).
 divider(lm).
 divider(nd).
@@ -1098,6 +1212,7 @@ divider(nm).
 divider(td).
 divider(thao).
 divider(tm).
+domestic_partner(an).
 domestic_partner(ld).
 domestic_partner(lm).
 domestic_partner(nd).
@@ -1109,6 +1224,7 @@ domestic_partner(thao).
 domestic_partner(tm).
 dote(Y, bh) :- person(Y).
 dote(Y, H) :- (Y = ngan ; Y = thao ; Y = nguyen), hometown(Y, H).
+double(an).
 double(ld).
 double(lm).
 double(nd).
@@ -1118,6 +1234,7 @@ double(nm).
 double(td).
 double(thao).
 double(tm).
+dresser(an).
 dresser(ld).
 dresser(lm).
 dresser(nd).
@@ -1127,6 +1244,7 @@ dresser(nm).
 dresser(td).
 dresser(thao).
 dresser(tm).
+dribbler(an).
 dribbler(ld).
 dribbler(lm).
 dribbler(nd).
@@ -1136,6 +1254,7 @@ dribbler(nm).
 dribbler(td).
 dribbler(thao).
 dribbler(tm).
+drug_user(an).
 drug_user(ld).
 drug_user(lm).
 drug_user(nd).
@@ -1145,6 +1264,7 @@ drug_user(nm).
 drug_user(td).
 drug_user(thao).
 drug_user(tm).
+dyslectic(an).
 dyslectic(ld).
 dyslectic(lm).
 dyslectic(nd).
@@ -1154,6 +1274,7 @@ dyslectic(nm).
 dyslectic(td).
 dyslectic(thao).
 dyslectic(tm).
+ectomorph(an).
 ectomorph(ld).
 ectomorph(lm).
 ectomorph(nd).
@@ -1166,6 +1287,7 @@ ectomorph(tm).
 educatee(ngan).
 educatee(nguyen).
 educatee(thao).
+effecter(an).
 effecter(ld).
 effecter(lm).
 effecter(nd).
@@ -1175,6 +1297,7 @@ effecter(nm).
 effecter(td).
 effecter(thao).
 effecter(tm).
+elizabethan(an).
 elizabethan(ld).
 elizabethan(lm).
 elizabethan(nd).
@@ -1184,6 +1307,7 @@ elizabethan(nm).
 elizabethan(td).
 elizabethan(thao).
 elizabethan(tm).
+emotional_person(an).
 emotional_person(ld).
 emotional_person(lm).
 emotional_person(nd).
@@ -1193,6 +1317,7 @@ emotional_person(nm).
 emotional_person(td).
 emotional_person(thao).
 emotional_person(tm).
+endomorph(an).
 endomorph(ld).
 endomorph(lm).
 endomorph(nd).
@@ -1202,6 +1327,7 @@ endomorph(nm).
 endomorph(td).
 endomorph(thao).
 endomorph(tm).
+engineer(an).
 engineer(ld).
 engineer(lm).
 engineer(nd).
@@ -1211,6 +1337,7 @@ engineer(nm).
 engineer(td).
 engineer(thao).
 engineer(tm).
+enjoyer(an).
 enjoyer(ld).
 enjoyer(lm).
 enjoyer(nd).
@@ -1220,6 +1347,7 @@ enjoyer(nm).
 enjoyer(td).
 enjoyer(thao).
 enjoyer(tm).
+enrollee(an).
 enrollee(ld).
 enrollee(lm).
 enrollee(nd).
@@ -1229,6 +1357,7 @@ enrollee(nm).
 enrollee(td).
 enrollee(thao).
 enrollee(tm).
+entertainer(an).
 entertainer(ld).
 entertainer(lm).
 entertainer(nd).
@@ -1238,6 +1367,7 @@ entertainer(nm).
 entertainer(td).
 entertainer(thao).
 entertainer(tm).
+ethnic(an).
 ethnic(ld).
 ethnic(lm).
 ethnic(nd).
@@ -1250,6 +1380,7 @@ ethnic(tm).
 etonian(ngan).
 etonian(nguyen).
 etonian(thao).
+experimenter(an).
 experimenter(ld).
 experimenter(lm).
 experimenter(nd).
@@ -1259,6 +1390,7 @@ experimenter(nm).
 experimenter(td).
 experimenter(thao).
 experimenter(tm).
+expert(an).
 expert(ld).
 expert(lm).
 expert(nd).
@@ -1268,6 +1400,7 @@ expert(nm).
 expert(td).
 expert(thao).
 expert(tm).
+explorer(an).
 explorer(ld).
 explorer(lm).
 explorer(nd).
@@ -1277,6 +1410,7 @@ explorer(nm).
 explorer(td).
 explorer(thao).
 explorer(tm).
+extrovert(an).
 extrovert(ld).
 extrovert(lm).
 extrovert(nd).
@@ -1287,6 +1421,7 @@ extrovert(td).
 extrovert(thao).
 extrovert(tm).
 exuberant(gl).
+face(an).
 face(ld).
 face(lm).
 face(nd).
@@ -1296,6 +1431,7 @@ face(nm).
 face(td).
 face(thao).
 face(tm).
+faddist(an).
 faddist(ld).
 faddist(lm).
 faddist(nd).
@@ -1305,6 +1441,7 @@ faddist(nm).
 faddist(td).
 faddist(thao).
 faddist(tm).
+faller(an).
 faller(ld).
 faller(lm).
 faller(nd).
@@ -1322,6 +1459,7 @@ family(thao, td).
 family(thao, tm).
 farmer(ld).
 farmer(lm).
+fastener(an).
 fastener(ld).
 fastener(lm).
 fastener(nd).
@@ -1334,6 +1472,7 @@ fastener(tm).
 father(ld).
 father(nd).
 father(td).
+female(an).
 female(ld).
 female(lm).
 female(nd).
@@ -1343,6 +1482,7 @@ female(nm).
 female(td).
 female(thao).
 female(tm).
+fiduciary(an).
 fiduciary(ld).
 fiduciary(lm).
 fiduciary(nd).
@@ -1352,6 +1492,7 @@ fiduciary(nm).
 fiduciary(td).
 fiduciary(thao).
 fiduciary(tm).
+first_rater(an).
 first_rater(ld).
 first_rater(lm).
 first_rater(nd).
@@ -1373,6 +1514,7 @@ flatmate(nguyen, ngan).
 flatmate(nguyen, thao).
 flatmate(thao, ngan).
 flatmate(thao, nguyen).
+follower(an).
 follower(ld).
 follower(lm).
 follower(nd).
@@ -1384,6 +1526,7 @@ follower(thao).
 follower(tm).
 forester(ld).
 forester(lm).
+free_agent(an).
 free_agent(ld).
 free_agent(lm).
 free_agent(nd).
@@ -1403,6 +1546,7 @@ friend(thao, nguyen).
 from(ngan, vt).
 from(nguyen, gl).
 from(thao, vt).
+fugitive(an).
 fugitive(ld).
 fugitive(lm).
 fugitive(nd).
@@ -1412,6 +1556,7 @@ fugitive(nm).
 fugitive(td).
 fugitive(thao).
 fugitive(tm).
+gainer(an).
 gainer(ld).
 gainer(lm).
 gainer(nd).
@@ -1421,6 +1566,7 @@ gainer(nm).
 gainer(td).
 gainer(thao).
 gainer(tm).
+gambler(an).
 gambler(ld).
 gambler(lm).
 gambler(nd).
@@ -1430,6 +1576,7 @@ gambler(nm).
 gambler(td).
 gambler(thao).
 gambler(tm).
+gatekeeper(an).
 gatekeeper(ld).
 gatekeeper(lm).
 gatekeeper(nd).
@@ -1439,6 +1586,7 @@ gatekeeper(nm).
 gatekeeper(td).
 gatekeeper(thao).
 gatekeeper(tm).
+gatherer(an).
 gatherer(ld).
 gatherer(lm).
 gatherer(nd).
@@ -1448,6 +1596,7 @@ gatherer(nm).
 gatherer(td).
 gatherer(thao).
 gatherer(tm).
+gemini(an).
 gemini(ld).
 gemini(lm).
 gemini(nd).
@@ -1457,6 +1606,7 @@ gemini(nm).
 gemini(td).
 gemini(thao).
 gemini(tm).
+gentile(an).
 gentile(ld).
 gentile(lm).
 gentile(nd).
@@ -1473,6 +1623,7 @@ girlfriend(nguyen, ngan).
 girlfriend(nguyen, thao).
 girlfriend(thao, ngan).
 girlfriend(thao, nguyen).
+good_guy(an).
 good_guy(ld).
 good_guy(lm).
 good_guy(nd).
@@ -1482,6 +1633,7 @@ good_guy(nm).
 good_guy(td).
 good_guy(thao).
 good_guy(tm).
+good_person(an).
 good_person(ld).
 good_person(lm).
 good_person(nd).
@@ -1493,6 +1645,7 @@ good_person(thao).
 good_person(tm).
 granger(ld).
 granger(lm).
+granter(an).
 granter(ld).
 granter(lm).
 granter(nd).
@@ -1502,6 +1655,7 @@ granter(nm).
 granter(td).
 granter(thao).
 granter(tm).
+greeter(an).
 greeter(ld).
 greeter(lm).
 greeter(nd).
@@ -1511,6 +1665,7 @@ greeter(nm).
 greeter(td).
 greeter(thao).
 greeter(tm).
+grinner(an).
 grinner(ld).
 grinner(lm).
 grinner(nd).
@@ -1520,6 +1675,7 @@ grinner(nm).
 grinner(td).
 grinner(thao).
 grinner(tm).
+groaner(an).
 groaner(ld).
 groaner(lm).
 groaner(nd).
@@ -1529,6 +1685,7 @@ groaner(nm).
 groaner(td).
 groaner(thao).
 groaner(tm).
+grunter(an).
 grunter(ld).
 grunter(lm).
 grunter(nd).
@@ -1538,6 +1695,7 @@ grunter(nm).
 grunter(td).
 grunter(thao).
 grunter(tm).
+guesser(an).
 guesser(ld).
 guesser(lm).
 guesser(nd).
@@ -1547,6 +1705,7 @@ guesser(nm).
 guesser(td).
 guesser(thao).
 guesser(tm).
+handicapped_person(an).
 handicapped_person(ld).
 handicapped_person(lm).
 handicapped_person(nd).
@@ -1556,6 +1715,7 @@ handicapped_person(nm).
 handicapped_person(td).
 handicapped_person(thao).
 handicapped_person(tm).
+hater(an).
 hater(ld).
 hater(lm).
 hater(nd).
@@ -1565,6 +1725,7 @@ hater(nm).
 hater(td).
 hater(thao).
 hater(tm).
+heterosexual(an).
 heterosexual(ld).
 heterosexual(lm).
 heterosexual(nd).
@@ -1578,6 +1739,7 @@ homemaker(tm).
 hometown(ngan, vt).
 hometown(nguyen, gl).
 hometown(thao, vt).
+homosexual(an).
 homosexual(ld).
 homosexual(lm).
 homosexual(nd).
@@ -1587,6 +1749,7 @@ homosexual(nm).
 homosexual(td).
 homosexual(thao).
 homosexual(tm).
+homunculus(an).
 homunculus(ld).
 homunculus(lm).
 homunculus(nd).
@@ -1596,6 +1759,7 @@ homunculus(nm).
 homunculus(td).
 homunculus(thao).
 homunculus(tm).
+hope(an).
 hope(ld).
 hope(lm).
 hope(nd).
@@ -1605,6 +1769,7 @@ hope(nm).
 hope(td).
 hope(thao).
 hope(tm).
+hoper(an).
 hoper(ld).
 hoper(lm).
 hoper(nd).
@@ -1615,6 +1780,7 @@ hoper(td).
 hoper(thao).
 hoper(tm).
 housewife(tm).
+huddler(an).
 huddler(ld).
 huddler(lm).
 huddler(nd).
@@ -1624,6 +1790,7 @@ huddler(nm).
 huddler(td).
 huddler(thao).
 huddler(tm).
+hugger(an).
 hugger(ld).
 hugger(lm).
 hugger(nd).
@@ -1635,6 +1802,7 @@ hugger(thao).
 hugger(tm).
 husbandman(ld).
 husbandman(lm).
+immune(an).
 immune(ld).
 immune(lm).
 immune(nd).
@@ -1646,6 +1814,7 @@ immune(thao).
 immune(tm).
 in(bh, vt).
 in_family(X, F) :- family(X, F).
+individual(an).
 individual(ld).
 individual(lm).
 individual(nd).
@@ -1655,6 +1824,7 @@ individual(nm).
 individual(td).
 individual(thao).
 individual(tm).
+individualist(an).
 individualist(ld).
 individualist(lm).
 individualist(nd).
@@ -1664,6 +1834,7 @@ individualist(nm).
 individualist(td).
 individualist(thao).
 individualist(tm).
+inhabitant(an).
 inhabitant(ld).
 inhabitant(lm).
 inhabitant(nd).
@@ -1673,6 +1844,7 @@ inhabitant(nm).
 inhabitant(td).
 inhabitant(thao).
 inhabitant(tm).
+innocent(an).
 innocent(ld).
 innocent(lm).
 innocent(nd).
@@ -1682,6 +1854,7 @@ innocent(nm).
 innocent(td).
 innocent(thao).
 innocent(tm).
+insured(an).
 insured(ld).
 insured(lm).
 insured(nd).
@@ -1691,6 +1864,7 @@ insured(nm).
 insured(td).
 insured(thao).
 insured(tm).
+intellectual(an).
 intellectual(ld).
 intellectual(lm).
 intellectual(nd).
@@ -1700,6 +1874,7 @@ intellectual(nm).
 intellectual(td).
 intellectual(thao).
 intellectual(tm).
+interpreter(an).
 interpreter(ld).
 interpreter(lm).
 interpreter(nd).
@@ -1709,6 +1884,7 @@ interpreter(nm).
 interpreter(td).
 interpreter(thao).
 interpreter(tm).
+introvert(an).
 introvert(ld).
 introvert(lm).
 introvert(nd).
@@ -1721,6 +1897,7 @@ introvert(tm).
 ivy_leaguer(ngan).
 ivy_leaguer(nguyen).
 ivy_leaguer(thao).
+jat(an).
 jat(ld).
 jat(lm).
 jat(nd).
@@ -1730,6 +1907,7 @@ jat(nm).
 jat(td).
 jat(thao).
 jat(tm).
+jew(an).
 jew(ld).
 jew(lm).
 jew(nd).
@@ -1739,6 +1917,7 @@ jew(nm).
 jew(td).
 jew(thao).
 jew(tm).
+jewel(an).
 jewel(ld).
 jewel(lm).
 jewel(nd).
@@ -1748,37 +1927,47 @@ jewel(nm).
 jewel(td).
 jewel(thao).
 jewel(tm).
-job(X, agriculturist) :- agriculturist(X).
-job(X, angler) :- angler(X).
-job(X, beekeeper) :- beekeeper(X).
-job(X, contadino) :- contadino(X).
-job(X, creator) :- creator(X).
-job(X, dairyman) :- dairyman(X).
 job(X, farmer) :- farmer(X).
-job(X, fisher) :- fisher(X).
 job(X, fisherman) :- fisherman(X).
 job(X, fishmonger) :- fishmonger(X).
-job(X, fishwife) :- fishwife(X).
-job(X, forester) :- forester(X).
-job(X, granger) :- granger(X).
-job(X, homemaker) :- homemaker(X).
 job(X, housewife) :- housewife(X).
-job(X, husbandman) :- husbandman(X).
-job(X, lady_of_the_house) :- lady_of_the_house(X).
-job(X, planter) :- planter(X).
-job(X, rancher) :- rancher(X).
-job(X, skilled_worker) :- skilled_worker(X).
-job(X, small_farmer) :- small_farmer(X).
-job(X, smallholder) :- smallholder(X).
-job(X, sodbuster) :- sodbuster(X).
-job(X, sower) :- sower(X).
-job(X, stockman) :- stockman(X).
-job(X, tenant_farmer) :- tenant_farmer(X).
-job(X, tiller) :- tiller(X).
-job(X, trader) :- trader(X).
-job(X, trawler) :- trawler(X).
-job(X, wife) :- wife(X).
-job(X, woman_of_the_house) :- woman_of_the_house(X).
+job(X, Y) :- job_relation(X, Y, _).
+job_relation(X, agriculturist, hyponym) :- farmer(X).
+job_relation(X, angler, hyponym) :- fisherman(X).
+job_relation(X, beekeeper, hyponym) :- farmer(X).
+job_relation(X, contadino, hyponym) :- farmer(X).
+job_relation(X, creator, hypernym) :- farmer(X).
+job_relation(X, dairyman, hyponym) :- farmer(X).
+job_relation(X, farmer, root) :- farmer(X).
+job_relation(X, farmer, synonym) :- farmer(X).
+job_relation(X, fisher, synonym) :- fisherman(X).
+job_relation(X, fisherman, root) :- fisherman(X).
+job_relation(X, fisherman, synonym) :- fisherman(X).
+job_relation(X, fishmonger, root) :- fishmonger(X).
+job_relation(X, fishmonger, synonym) :- fishmonger(X).
+job_relation(X, fishwife, synonym) :- fishmonger(X).
+job_relation(X, forester, hyponym) :- farmer(X).
+job_relation(X, granger, synonym) :- farmer(X).
+job_relation(X, homemaker, synonym) :- housewife(X).
+job_relation(X, housewife, root) :- housewife(X).
+job_relation(X, housewife, synonym) :- housewife(X).
+job_relation(X, husbandman, synonym) :- farmer(X).
+job_relation(X, lady_of_the_house, synonym) :- housewife(X).
+job_relation(X, planter, hyponym) :- farmer(X).
+job_relation(X, rancher, hyponym) :- farmer(X).
+job_relation(X, skilled_worker, hypernym) :- fisherman(X).
+job_relation(X, small_farmer, hyponym) :- farmer(X).
+job_relation(X, smallholder, hyponym) :- farmer(X).
+job_relation(X, sodbuster, synonym) :- farmer(X).
+job_relation(X, sower, hyponym) :- farmer(X).
+job_relation(X, stockman, hyponym) :- farmer(X).
+job_relation(X, tenant_farmer, hyponym) :- farmer(X).
+job_relation(X, tiller, hyponym) :- farmer(X).
+job_relation(X, trader, hypernym) :- fishmonger(X).
+job_relation(X, trawler, hyponym) :- fisherman(X).
+job_relation(X, wife, hypernym) :- housewife(X).
+job_relation(X, woman_of_the_house, synonym) :- housewife(X).
+jumper(an).
 jumper(ld).
 jumper(lm).
 jumper(nd).
@@ -1788,6 +1977,7 @@ jumper(nm).
 jumper(td).
 jumper(thao).
 jumper(tm).
+junior(an).
 junior(ld).
 junior(lm).
 junior(nd).
@@ -1797,6 +1987,7 @@ junior(nm).
 junior(td).
 junior(thao).
 junior(tm).
+juvenile(an).
 juvenile(ld).
 juvenile(lm).
 juvenile(nd).
@@ -1806,6 +1997,7 @@ juvenile(nm).
 juvenile(td).
 juvenile(thao).
 juvenile(tm).
+killer(an).
 killer(ld).
 killer(lm).
 killer(nd).
@@ -1815,6 +2007,7 @@ killer(nm).
 killer(td).
 killer(thao).
 killer(tm).
+kink(an).
 kink(ld).
 kink(lm).
 kink(nd).
@@ -1824,6 +2017,7 @@ kink(nm).
 kink(td).
 kink(thao).
 kink(tm).
+kneeler(an).
 kneeler(ld).
 kneeler(lm).
 kneeler(nd).
@@ -1833,6 +2027,7 @@ kneeler(nm).
 kneeler(td).
 kneeler(thao).
 kneeler(tm).
+knocker(an).
 knocker(ld).
 knocker(lm).
 knocker(nd).
@@ -1842,6 +2037,7 @@ knocker(nm).
 knocker(td).
 knocker(thao).
 knocker(tm).
+knower(an).
 knower(ld).
 knower(lm).
 knower(nd).
@@ -1852,6 +2048,7 @@ knower(td).
 knower(thao).
 knower(tm).
 lady_of_the_house(tm).
+large_person(an).
 large_person(ld).
 large_person(lm).
 large_person(nd).
@@ -1861,6 +2058,7 @@ large_person(nm).
 large_person(td).
 large_person(thao).
 large_person(tm).
+latin(an).
 latin(ld).
 latin(lm).
 latin(nd).
@@ -1870,6 +2068,7 @@ latin(nm).
 latin(td).
 latin(thao).
 latin(tm).
+laugher(an).
 laugher(ld).
 laugher(lm).
 laugher(nd).
@@ -1882,6 +2081,7 @@ laugher(tm).
 law_student(ngan).
 law_student(nguyen).
 law_student(thao).
+leader(an).
 leader(ld).
 leader(lm).
 leader(nd).
@@ -1891,6 +2091,7 @@ leader(nm).
 leader(td).
 leader(thao).
 leader(tm).
+learner(an).
 learner(ld).
 learner(lm).
 learner(nd).
@@ -1900,6 +2101,7 @@ learner(nm).
 learner(td).
 learner(thao).
 learner(tm).
+left_hander(an).
 left_hander(ld).
 left_hander(lm).
 left_hander(nd).
@@ -1909,6 +2111,7 @@ left_hander(nm).
 left_hander(td).
 left_hander(thao).
 left_hander(tm).
+leo(an).
 leo(ld).
 leo(lm).
 leo(nd).
@@ -1918,6 +2121,7 @@ leo(nm).
 leo(td).
 leo(thao).
 leo(tm).
+libra(an).
 libra(ld).
 libra(lm).
 libra(nd).
@@ -1927,6 +2131,7 @@ libra(nm).
 libra(td).
 libra(thao).
 libra(tm).
+life(an).
 life(ld).
 life(lm).
 life(nd).
@@ -1942,6 +2147,7 @@ light(nguyen, ngan).
 light(nguyen, thao).
 light(thao, ngan).
 light(thao, nguyen).
+lightning_rod(an).
 lightning_rod(ld).
 lightning_rod(lm).
 lightning_rod(nd).
@@ -1951,6 +2157,7 @@ lightning_rod(nm).
 lightning_rod(td).
 lightning_rod(thao).
 lightning_rod(tm).
+linguist(an).
 linguist(ld).
 linguist(lm).
 linguist(nd).
@@ -1960,6 +2167,7 @@ linguist(nm).
 linguist(td).
 linguist(thao).
 linguist(tm).
+literate(an).
 literate(ld).
 literate(lm).
 literate(nd).
@@ -1969,6 +2177,7 @@ literate(nm).
 literate(td).
 literate(thao).
 literate(tm).
+liver(an).
 liver(ld).
 liver(lm).
 liver(nd).
@@ -1978,6 +2187,7 @@ liver(nm).
 liver(td).
 liver(thao).
 liver(tm).
+longer(an).
 longer(ld).
 longer(lm).
 longer(nd).
@@ -1987,6 +2197,7 @@ longer(nm).
 longer(td).
 longer(thao).
 longer(tm).
+loose_cannon(an).
 loose_cannon(ld).
 loose_cannon(lm).
 loose_cannon(nd).
@@ -1998,6 +2209,7 @@ loose_cannon(thao).
 loose_cannon(tm).
 love(Y, bh) :- person(Y).
 love(Y, H) :- (Y = ngan ; Y = thao ; Y = nguyen), hometown(Y, H).
+loved_one(an).
 loved_one(ld).
 loved_one(lm).
 loved_one(nd).
@@ -2007,6 +2219,7 @@ loved_one(nm).
 loved_one(td).
 loved_one(thao).
 loved_one(tm).
+lover(an).
 lover(ld).
 lover(lm).
 lover(nd).
@@ -2021,6 +2234,7 @@ luxuriant(gl).
 ma(lm).
 ma(nm).
 ma(tm).
+machine(an).
 machine(ld).
 machine(lm).
 machine(nd).
@@ -2030,6 +2244,7 @@ machine(nm).
 machine(td).
 machine(thao).
 machine(tm).
+mailer(an).
 mailer(ld).
 mailer(lm).
 mailer(nd).
@@ -2042,6 +2257,7 @@ mailer(tm).
 major(ngan).
 major(nguyen).
 major(thao).
+malcontent(an).
 malcontent(ld).
 malcontent(lm).
 malcontent(nd).
@@ -2051,6 +2267,7 @@ malcontent(nm).
 malcontent(td).
 malcontent(thao).
 malcontent(tm).
+male(an).
 male(ld).
 male(lm).
 male(nd).
@@ -2069,6 +2286,7 @@ mamma(tm).
 mammy(lm).
 mammy(nm).
 mammy(tm).
+man(an).
 man(ld).
 man(lm).
 man(nd).
@@ -2078,6 +2296,7 @@ man(nm).
 man(td).
 man(thao).
 man(tm).
+man_jack(an).
 man_jack(ld).
 man_jack(lm).
 man_jack(nd).
@@ -2087,6 +2306,7 @@ man_jack(nm).
 man_jack(td).
 man_jack(thao).
 man_jack(tm).
+manipulator(an).
 manipulator(ld).
 manipulator(lm).
 manipulator(nd).
@@ -2096,6 +2316,7 @@ manipulator(nm).
 manipulator(td).
 manipulator(thao).
 manipulator(tm).
+married(an).
 married(ld).
 married(lm).
 married(nd).
@@ -2105,6 +2326,7 @@ married(nm).
 married(td).
 married(thao).
 married(tm).
+masturbator(an).
 masturbator(ld).
 masturbator(lm).
 masturbator(nd).
@@ -2120,6 +2342,7 @@ mate(nguyen, ngan).
 mate(nguyen, thao).
 mate(thao, ngan).
 mate(thao, nguyen).
+measurer(an).
 measurer(ld).
 measurer(lm).
 measurer(nd).
@@ -2132,6 +2355,7 @@ measurer(tm).
 medical_student(ngan).
 medical_student(nguyen).
 medical_student(thao).
+mesomorph(an).
 mesomorph(ld).
 mesomorph(lm).
 mesomorph(nd).
@@ -2141,6 +2365,7 @@ mesomorph(nm).
 mesomorph(td).
 mesomorph(thao).
 mesomorph(tm).
+mestizo(an).
 mestizo(ld).
 mestizo(lm).
 mestizo(nd).
@@ -2152,6 +2377,7 @@ mestizo(thao).
 mestizo(tm).
 metropolis(gl).
 metropolis(vt).
+middlebrow(an).
 middlebrow(ld).
 middlebrow(lm).
 middlebrow(nd).
@@ -2161,6 +2387,7 @@ middlebrow(nm).
 middlebrow(td).
 middlebrow(thao).
 middlebrow(tm).
+miracle_man(an).
 miracle_man(ld).
 miracle_man(lm).
 miracle_man(nd).
@@ -2170,6 +2397,7 @@ miracle_man(nm).
 miracle_man(td).
 miracle_man(thao).
 miracle_man(tm).
+misogamist(an).
 misogamist(ld).
 misogamist(lm).
 misogamist(nd).
@@ -2179,6 +2407,7 @@ misogamist(nm).
 misogamist(td).
 misogamist(thao).
 misogamist(tm).
+mixed_blood(an).
 mixed_blood(ld).
 mixed_blood(lm).
 mixed_blood(nd).
@@ -2188,6 +2417,7 @@ mixed_blood(nm).
 mixed_blood(td).
 mixed_blood(thao).
 mixed_blood(tm).
+modern(an).
 modern(ld).
 modern(lm).
 modern(nd).
@@ -2206,6 +2436,7 @@ momma(tm).
 mommy(lm).
 mommy(nm).
 mommy(tm).
+money_handler(an).
 money_handler(ld).
 money_handler(lm).
 money_handler(nd).
@@ -2215,6 +2446,7 @@ money_handler(nm).
 money_handler(td).
 money_handler(thao).
 money_handler(tm).
+monolingual(an).
 monolingual(ld).
 monolingual(lm).
 monolingual(nd).
@@ -2224,6 +2456,7 @@ monolingual(nm).
 monolingual(td).
 monolingual(thao).
 monolingual(tm).
+mortal(an).
 mortal(ld).
 mortal(lm).
 mortal(nd).
@@ -2236,6 +2469,7 @@ mortal(tm).
 mother(lm).
 mother(nm).
 mother(tm).
+mother_hen(an).
 mother_hen(ld).
 mother_hen(lm).
 mother_hen(nd).
@@ -2245,6 +2479,7 @@ mother_hen(nm).
 mother_hen(td).
 mother_hen(thao).
 mother_hen(tm).
+mouse(an).
 mouse(ld).
 mouse(lm).
 mouse(nd).
@@ -2262,6 +2497,7 @@ mummy(nm).
 mummy(tm).
 municipality(gl).
 municipality(vt).
+mutilator(an).
 mutilator(ld).
 mutilator(lm).
 mutilator(nd).
@@ -2271,6 +2507,7 @@ mutilator(nm).
 mutilator(td).
 mutilator(thao).
 mutilator(tm).
+namer(an).
 namer(ld).
 namer(lm).
 namer(nd).
@@ -2280,6 +2517,7 @@ namer(nm).
 namer(td).
 namer(thao).
 namer(tm).
+namesake(an).
 namesake(ld).
 namesake(lm).
 namesake(nd).
@@ -2289,6 +2527,7 @@ namesake(nm).
 namesake(td).
 namesake(thao).
 namesake(tm).
+national(an).
 national(ld).
 national(lm).
 national(nd).
@@ -2300,6 +2539,7 @@ national(thao).
 national(tm).
 national_capital(gl).
 national_capital(vt).
+native(an).
 native(ld).
 native(lm).
 native(nd).
@@ -2309,6 +2549,7 @@ native(nm).
 native(td).
 native(thao).
 native(tm).
+neglecter(an).
 neglecter(ld).
 neglecter(lm).
 neglecter(nd).
@@ -2318,6 +2559,7 @@ neglecter(nm).
 neglecter(td).
 neglecter(thao).
 neglecter(tm).
+neighbor(an).
 neighbor(ld).
 neighbor(lm).
 neighbor(nd).
@@ -2327,6 +2569,7 @@ neighbor(nm).
 neighbor(td).
 neighbor(thao).
 neighbor(tm).
+neutral(an).
 neutral(ld).
 neutral(lm).
 neutral(nd).
@@ -2336,6 +2579,7 @@ neutral(nm).
 neutral(td).
 neutral(thao).
 neutral(tm).
+nondescript(an).
 nondescript(ld).
 nondescript(lm).
 nondescript(nd).
@@ -2345,6 +2589,7 @@ nondescript(nm).
 nondescript(td).
 nondescript(thao).
 nondescript(tm).
+nonmember(an).
 nonmember(ld).
 nonmember(lm).
 nonmember(nd).
@@ -2354,6 +2599,7 @@ nonmember(nm).
 nonmember(td).
 nonmember(thao).
 nonmember(tm).
+nonparticipant(an).
 nonparticipant(ld).
 nonparticipant(lm).
 nonparticipant(nd).
@@ -2363,6 +2609,7 @@ nonparticipant(nm).
 nonparticipant(td).
 nonparticipant(thao).
 nonparticipant(tm).
+nonpartisan(an).
 nonpartisan(ld).
 nonpartisan(lm).
 nonpartisan(nd).
@@ -2372,6 +2619,7 @@ nonpartisan(nm).
 nonpartisan(td).
 nonpartisan(thao).
 nonpartisan(tm).
+nonperson(an).
 nonperson(ld).
 nonperson(lm).
 nonperson(nd).
@@ -2384,6 +2632,7 @@ nonperson(tm).
 nonreader(ngan).
 nonreader(nguyen).
 nonreader(thao).
+nonreligious_person(an).
 nonreligious_person(ld).
 nonreligious_person(lm).
 nonreligious_person(nd).
@@ -2393,6 +2642,7 @@ nonreligious_person(nm).
 nonreligious_person(td).
 nonreligious_person(thao).
 nonreligious_person(tm).
+nonresident(an).
 nonresident(ld).
 nonresident(lm).
 nonresident(nd).
@@ -2402,6 +2652,7 @@ nonresident(nm).
 nonresident(td).
 nonresident(thao).
 nonresident(tm).
+nonsmoker(an).
 nonsmoker(ld).
 nonsmoker(lm).
 nonsmoker(nd).
@@ -2411,6 +2662,7 @@ nonsmoker(nm).
 nonsmoker(td).
 nonsmoker(thao).
 nonsmoker(tm).
+nonworker(an).
 nonworker(ld).
 nonworker(lm).
 nonworker(nd).
@@ -2420,6 +2672,7 @@ nonworker(nm).
 nonworker(td).
 nonworker(thao).
 nonworker(tm).
+nude(an).
 nude(ld).
 nude(lm).
 nude(nd).
@@ -2429,6 +2682,7 @@ nude(nm).
 nude(td).
 nude(thao).
 nude(tm).
+nurser(an).
 nurser(ld).
 nurser(lm).
 nurser(nd).
@@ -2438,6 +2692,7 @@ nurser(nm).
 nurser(td).
 nurser(thao).
 nurser(tm).
+occultist(an).
 occultist(ld).
 occultist(lm).
 occultist(nd).
@@ -2447,6 +2702,7 @@ occultist(nm).
 occultist(td).
 occultist(thao).
 occultist(tm).
+optimist(an).
 optimist(ld).
 optimist(lm).
 optimist(nd).
@@ -2456,6 +2712,7 @@ optimist(nm).
 optimist(td).
 optimist(thao).
 optimist(tm).
+organism(an).
 organism(ld).
 organism(lm).
 organism(nd).
@@ -2465,6 +2722,7 @@ organism(nm).
 organism(td).
 organism(thao).
 organism(tm).
+orphan(an).
 orphan(ld).
 orphan(lm).
 orphan(nd).
@@ -2474,6 +2732,7 @@ orphan(nm).
 orphan(td).
 orphan(thao).
 orphan(tm).
+ostrich(an).
 ostrich(ld).
 ostrich(lm).
 ostrich(nd).
@@ -2483,6 +2742,7 @@ ostrich(nm).
 ostrich(td).
 ostrich(thao).
 ostrich(tm).
+ouster(an).
 ouster(ld).
 ouster(lm).
 ouster(nd).
@@ -2492,6 +2752,7 @@ ouster(nm).
 ouster(td).
 ouster(thao).
 ouster(tm).
+outcaste(an).
 outcaste(ld).
 outcaste(lm).
 outcaste(nd).
@@ -2501,6 +2762,7 @@ outcaste(nm).
 outcaste(td).
 outcaste(thao).
 outcaste(tm).
+outdoorsman(an).
 outdoorsman(ld).
 outdoorsman(lm).
 outdoorsman(nd).
@@ -2513,6 +2775,7 @@ outdoorsman(tm).
 overachiever(ngan).
 overachiever(nguyen).
 overachiever(thao).
+owner(an).
 owner(ld).
 owner(lm).
 owner(nd).
@@ -2525,6 +2788,7 @@ owner(tm).
 pa(ld).
 pa(nd).
 pa(td).
+pamperer(an).
 pamperer(ld).
 pamperer(lm).
 pamperer(nd).
@@ -2534,6 +2798,7 @@ pamperer(nm).
 pamperer(td).
 pamperer(thao).
 pamperer(tm).
+pansexual(an).
 pansexual(ld).
 pansexual(lm).
 pansexual(nd).
@@ -2549,6 +2814,7 @@ papa(td).
 pappa(ld).
 pappa(nd).
 pappa(td).
+pardoner(an).
 pardoner(ld).
 pardoner(lm).
 pardoner(nd).
@@ -2558,6 +2824,7 @@ pardoner(nm).
 pardoner(td).
 pardoner(thao).
 pardoner(tm).
+partner(an).
 partner(ld).
 partner(lm).
 partner(nd).
@@ -2567,6 +2834,7 @@ partner(nm).
 partner(td).
 partner(thao).
 partner(tm).
+party(an).
 party(ld).
 party(lm).
 party(nd).
@@ -2576,6 +2844,7 @@ party(nm).
 party(td).
 party(thao).
 party(tm).
+passer(an).
 passer(ld).
 passer(lm).
 passer(nd).
@@ -2585,6 +2854,7 @@ passer(nm).
 passer(td).
 passer(thao).
 passer(tm).
+peer(an).
 peer(ld).
 peer(lm).
 peer(nd).
@@ -2594,6 +2864,7 @@ peer(nm).
 peer(td).
 peer(thao).
 peer(tm).
+perceiver(an).
 perceiver(ld).
 perceiver(lm).
 perceiver(nd).
@@ -2603,6 +2874,7 @@ perceiver(nm).
 perceiver(td).
 perceiver(thao).
 perceiver(tm).
+percher(an).
 percher(ld).
 percher(lm).
 percher(nd).
@@ -2612,6 +2884,7 @@ percher(nm).
 percher(td).
 percher(thao).
 percher(tm).
+person(an).
 person(ld).
 person(lm).
 person(nd).
@@ -2621,6 +2894,7 @@ person(nm).
 person(td).
 person(thao).
 person(tm).
+person_of_color(an).
 person_of_color(ld).
 person_of_color(lm).
 person_of_color(nd).
@@ -2630,6 +2904,7 @@ person_of_color(nm).
 person_of_color(td).
 person_of_color(thao).
 person_of_color(tm).
+personage(an).
 personage(ld).
 personage(lm).
 personage(nd).
@@ -2639,6 +2914,7 @@ personage(nm).
 personage(td).
 personage(thao).
 personage(tm).
+personification(an).
 personification(ld).
 personification(lm).
 personification(nd).
@@ -2648,6 +2924,7 @@ personification(nm).
 personification(td).
 personification(thao).
 personification(tm).
+perspirer(an).
 perspirer(ld).
 perspirer(lm).
 perspirer(nd).
@@ -2657,6 +2934,7 @@ perspirer(nm).
 perspirer(td).
 perspirer(thao).
 perspirer(tm).
+philosopher(an).
 philosopher(ld).
 philosopher(lm).
 philosopher(nd).
@@ -2666,6 +2944,7 @@ philosopher(nm).
 philosopher(td).
 philosopher(thao).
 philosopher(tm).
+picker(an).
 picker(ld).
 picker(lm).
 picker(nd).
@@ -2675,6 +2954,7 @@ picker(nm).
 picker(td).
 picker(thao).
 picker(tm).
+pisces(an).
 pisces(ld).
 pisces(lm).
 pisces(nd).
@@ -2684,6 +2964,7 @@ pisces(nm).
 pisces(td).
 pisces(thao).
 pisces(tm).
+pisser(an).
 pisser(ld).
 pisser(lm).
 pisser(nd).
@@ -2694,6 +2975,7 @@ pisser(td).
 pisser(thao).
 pisser(tm).
 plage(bh).
+planner(an).
 planner(ld).
 planner(lm).
 planner(nd).
@@ -2705,6 +2987,7 @@ planner(thao).
 planner(tm).
 planter(ld).
 planter(lm).
+player(an).
 player(ld).
 player(lm).
 player(nd).
@@ -2717,6 +3000,7 @@ player(tm).
 pop(ld).
 pop(nd).
 pop(td).
+posturer(an).
 posturer(ld).
 posturer(lm).
 posturer(nd).
@@ -2726,6 +3010,7 @@ posturer(nm).
 posturer(td).
 posturer(thao).
 posturer(tm).
+powderer(an).
 powderer(ld).
 powderer(lm).
 powderer(nd).
@@ -2735,6 +3020,7 @@ powderer(nm).
 powderer(td).
 powderer(thao).
 powderer(tm).
+precursor(an).
 precursor(ld).
 precursor(lm).
 precursor(nd).
@@ -2744,6 +3030,7 @@ precursor(nm).
 precursor(td).
 precursor(thao).
 precursor(tm).
+preserver(an).
 preserver(ld).
 preserver(lm).
 preserver(nd).
@@ -2753,6 +3040,7 @@ preserver(nm).
 preserver(td).
 preserver(thao).
 preserver(tm).
+primitive(an).
 primitive(ld).
 primitive(lm).
 primitive(nd).
@@ -2763,6 +3051,7 @@ primitive(td).
 primitive(thao).
 primitive(tm).
 profuse(gl).
+propositus(an).
 propositus(ld).
 propositus(lm).
 propositus(nd).
@@ -2774,6 +3063,7 @@ propositus(thao).
 propositus(tm).
 provincial_capital(gl).
 provincial_capital(vt).
+public_relations_person(an).
 public_relations_person(ld).
 public_relations_person(lm).
 public_relations_person(nd).
@@ -2786,6 +3076,7 @@ public_relations_person(tm).
 pupil(ngan).
 pupil(nguyen).
 pupil(thao).
+pursuer(an).
 pursuer(ld).
 pursuer(lm).
 pursuer(nd).
@@ -2795,6 +3086,7 @@ pursuer(nm).
 pursuer(td).
 pursuer(thao).
 pursuer(tm).
+pussycat(an).
 pussycat(ld).
 pussycat(lm).
 pussycat(nd).
@@ -2804,6 +3096,7 @@ pussycat(nm).
 pussycat(td).
 pussycat(thao).
 pussycat(tm).
+quarter(an).
 quarter(ld).
 quarter(lm).
 quarter(nd).
@@ -2813,6 +3106,7 @@ quarter(nm).
 quarter(td).
 quarter(thao).
 quarter(tm).
+quitter(an).
 quitter(ld).
 quitter(lm).
 quitter(nd).
@@ -2822,6 +3116,7 @@ quitter(nm).
 quitter(td).
 quitter(thao).
 quitter(tm).
+radical(an).
 radical(ld).
 radical(lm).
 radical(nd).
@@ -2833,6 +3128,7 @@ radical(thao).
 radical(tm).
 rancher(ld).
 rancher(lm).
+realist(an).
 realist(ld).
 realist(lm).
 realist(nd).
@@ -2842,6 +3138,7 @@ realist(nm).
 realist(td).
 realist(thao).
 realist(tm).
+rectifier(an).
 rectifier(ld).
 rectifier(lm).
 rectifier(nd).
@@ -2851,6 +3148,7 @@ rectifier(nm).
 rectifier(td).
 rectifier(thao).
 rectifier(tm).
+redhead(an).
 redhead(ld).
 redhead(lm).
 redhead(nd).
@@ -2862,6 +3160,7 @@ redhead(thao).
 redhead(tm).
 refreshful(bh).
 refreshing(bh).
+registrant(an).
 registrant(ld).
 registrant(lm).
 registrant(nd).
@@ -2871,6 +3170,7 @@ registrant(nm).
 registrant(td).
 registrant(thao).
 registrant(tm).
+relative(an).
 relative(ld).
 relative(lm).
 relative(nd).
@@ -2880,6 +3180,7 @@ relative(nm).
 relative(td).
 relative(thao).
 relative(tm).
+reliever(an).
 reliever(ld).
 reliever(lm).
 reliever(nd).
@@ -2889,6 +3190,7 @@ reliever(nm).
 reliever(td).
 reliever(thao).
 reliever(tm).
+religious_person(an).
 religious_person(ld).
 religious_person(lm).
 religious_person(nd).
@@ -2898,6 +3200,7 @@ religious_person(nm).
 religious_person(td).
 religious_person(thao).
 religious_person(tm).
+repeater(an).
 repeater(ld).
 repeater(lm).
 repeater(nd).
@@ -2907,6 +3210,7 @@ repeater(nm).
 repeater(td).
 repeater(thao).
 repeater(tm).
+rescuer(an).
 rescuer(ld).
 rescuer(lm).
 rescuer(nd).
@@ -2916,6 +3220,7 @@ rescuer(nm).
 rescuer(td).
 rescuer(thao).
 rescuer(tm).
+rester(an).
 rester(ld).
 rester(lm).
 rester(nd).
@@ -2925,6 +3230,7 @@ rester(nm).
 rester(td).
 rester(thao).
 rester(tm).
+restrainer(an).
 restrainer(ld).
 restrainer(lm).
 restrainer(nd).
@@ -2934,6 +3240,7 @@ restrainer(nm).
 restrainer(td).
 restrainer(thao).
 restrainer(tm).
+revenant(an).
 revenant(ld).
 revenant(lm).
 revenant(nd).
@@ -2943,6 +3250,7 @@ revenant(nm).
 revenant(td).
 revenant(thao).
 revenant(tm).
+rich_person(an).
 rich_person(ld).
 rich_person(lm).
 rich_person(nd).
@@ -2952,6 +3260,7 @@ rich_person(nm).
 rich_person(td).
 rich_person(thao).
 rich_person(tm).
+right_hander(an).
 right_hander(ld).
 right_hander(lm).
 right_hander(nd).
@@ -2962,6 +3271,7 @@ right_hander(td).
 right_hander(thao).
 right_hander(tm).
 riotous(gl).
+riser(an).
 riser(ld).
 riser(lm).
 riser(nd).
@@ -2972,6 +3282,7 @@ riser(td).
 riser(thao).
 riser(tm).
 role(X, student) :- student(X).
+romper(an).
 romper(ld).
 romper(lm).
 romper(nd).
@@ -2987,6 +3298,7 @@ roommate(nguyen, ngan).
 roommate(nguyen, thao).
 roommate(thao, ngan).
 roommate(thao, nguyen).
+roundhead(an).
 roundhead(ld).
 roundhead(lm).
 roundhead(nd).
@@ -2996,6 +3308,7 @@ roundhead(nm).
 roundhead(td).
 roundhead(thao).
 roundhead(tm).
+ruler(an).
 ruler(ld).
 ruler(lm).
 ruler(nd).
@@ -3005,6 +3318,7 @@ ruler(nm).
 ruler(td).
 ruler(thao).
 ruler(tm).
+rusher(an).
 rusher(ld).
 rusher(lm).
 rusher(nd).
@@ -3020,6 +3334,7 @@ s(nguyen, ld).
 s(nguyen, lm).
 s(thao, td).
 s(thao, tm).
+sagittarius(an).
 sagittarius(ld).
 sagittarius(lm).
 sagittarius(nd).
@@ -3038,6 +3353,7 @@ schoolfriend(nguyen, ngan).
 schoolfriend(nguyen, thao).
 schoolfriend(thao, ngan).
 schoolfriend(thao, nguyen).
+scientist(an).
 scientist(ld).
 scientist(lm).
 scientist(nd).
@@ -3047,6 +3363,7 @@ scientist(nm).
 scientist(td).
 scientist(thao).
 scientist(tm).
+scorpio(an).
 scorpio(ld).
 scorpio(lm).
 scorpio(nd).
@@ -3056,6 +3373,7 @@ scorpio(nm).
 scorpio(td).
 scorpio(thao).
 scorpio(tm).
+scratcher(an).
 scratcher(ld).
 scratcher(lm).
 scratcher(nd).
@@ -3065,6 +3383,7 @@ scratcher(nm).
 scratcher(td).
 scratcher(thao).
 scratcher(tm).
+second_rater(an).
 second_rater(ld).
 second_rater(lm).
 second_rater(nd).
@@ -3074,6 +3393,7 @@ second_rater(nm).
 second_rater(td).
 second_rater(thao).
 second_rater(tm).
+seeder(an).
 seeder(ld).
 seeder(lm).
 seeder(nd).
@@ -3083,6 +3403,7 @@ seeder(nm).
 seeder(td).
 seeder(thao).
 seeder(tm).
+seeker(an).
 seeker(ld).
 seeker(lm).
 seeker(nd).
@@ -3092,6 +3413,7 @@ seeker(nm).
 seeker(td).
 seeker(thao).
 seeker(tm).
+segregate(an).
 segregate(ld).
 segregate(lm).
 segregate(nd).
@@ -3101,6 +3423,7 @@ segregate(nm).
 segregate(td).
 segregate(thao).
 segregate(tm).
+self(an).
 self(ld).
 self(lm).
 self(nd).
@@ -3113,6 +3436,7 @@ self(tm).
 seminarian(ngan).
 seminarian(nguyen).
 seminarian(thao).
+sensualist(an).
 sensualist(ld).
 sensualist(lm).
 sensualist(nd).
@@ -3122,6 +3446,7 @@ sensualist(nm).
 sensualist(td).
 sensualist(thao).
 sensualist(tm).
+sentimentalist(an).
 sentimentalist(ld).
 sentimentalist(lm).
 sentimentalist(nd).
@@ -3131,6 +3456,7 @@ sentimentalist(nm).
 sentimentalist(td).
 sentimentalist(thao).
 sentimentalist(tm).
+sex_object(an).
 sex_object(ld).
 sex_object(lm).
 sex_object(nd).
@@ -3140,6 +3466,7 @@ sex_object(nm).
 sex_object(td).
 sex_object(thao).
 sex_object(tm).
+sex_symbol(an).
 sex_symbol(ld).
 sex_symbol(lm).
 sex_symbol(nd).
@@ -3149,6 +3476,7 @@ sex_symbol(nm).
 sex_symbol(td).
 sex_symbol(thao).
 sex_symbol(tm).
+shaker(an).
 shaker(ld).
 shaker(lm).
 shaker(nd).
@@ -3158,6 +3486,7 @@ shaker(nm).
 shaker(td).
 shaker(thao).
 shaker(tm).
+showman(an).
 showman(ld).
 showman(lm).
 showman(nd).
@@ -3167,6 +3496,7 @@ showman(nm).
 showman(td).
 showman(thao).
 showman(tm).
+signer(an).
 signer(ld).
 signer(lm).
 signer(nd).
@@ -3176,6 +3506,7 @@ signer(nm).
 signer(td).
 signer(thao).
 signer(tm).
+simpleton(an).
 simpleton(ld).
 simpleton(lm).
 simpleton(nd).
@@ -3185,6 +3516,7 @@ simpleton(nm).
 simpleton(td).
 simpleton(thao).
 simpleton(tm).
+six_footer(an).
 six_footer(ld).
 six_footer(lm).
 six_footer(nd).
@@ -3197,6 +3529,7 @@ six_footer(tm).
 sixth_former(ngan).
 sixth_former(nguyen).
 sixth_former(thao).
+skidder(an).
 skidder(ld).
 skidder(lm).
 skidder(nd).
@@ -3210,6 +3543,7 @@ skilled_worker(td).
 skipper(ngan).
 skipper(nguyen).
 skipper(thao).
+slav(an).
 slav(ld).
 slav(lm).
 slav(nd).
@@ -3219,6 +3553,7 @@ slav(nm).
 slav(td).
 slav(thao).
 slav(tm).
+slave(an).
 slave(ld).
 slave(lm).
 slave(nd).
@@ -3228,6 +3563,7 @@ slave(nm).
 slave(td).
 slave(thao).
 slave(tm).
+sleepyhead(an).
 sleepyhead(ld).
 sleepyhead(lm).
 sleepyhead(nd).
@@ -3237,6 +3573,7 @@ sleepyhead(nm).
 sleepyhead(td).
 sleepyhead(thao).
 sleepyhead(tm).
+sloucher(an).
 sloucher(ld).
 sloucher(lm).
 sloucher(nd).
@@ -3248,6 +3585,7 @@ sloucher(thao).
 sloucher(tm).
 small_farmer(ld).
 small_farmer(lm).
+small_person(an).
 small_person(ld).
 small_person(lm).
 small_person(nd).
@@ -3259,6 +3597,7 @@ small_person(thao).
 small_person(tm).
 smallholder(ld).
 smallholder(lm).
+smasher(an).
 smasher(ld).
 smasher(lm).
 smasher(nd).
@@ -3268,6 +3607,7 @@ smasher(nm).
 smasher(td).
 smasher(thao).
 smasher(tm).
+smiler(an).
 smiler(ld).
 smiler(lm).
 smiler(nd).
@@ -3277,6 +3617,7 @@ smiler(nm).
 smiler(td).
 smiler(thao).
 smiler(tm).
+sneezer(an).
 sneezer(ld).
 sneezer(lm).
 sneezer(nd).
@@ -3286,6 +3627,7 @@ sneezer(nm).
 sneezer(td).
 sneezer(thao).
 sneezer(tm).
+sniffer(an).
 sniffer(ld).
 sniffer(lm).
 sniffer(nd).
@@ -3295,6 +3637,7 @@ sniffer(nm).
 sniffer(td).
 sniffer(thao).
 sniffer(tm).
+sniffler(an).
 sniffler(ld).
 sniffler(lm).
 sniffler(nd).
@@ -3304,6 +3647,7 @@ sniffler(nm).
 sniffler(td).
 sniffler(thao).
 sniffler(tm).
+snuffer(an).
 snuffer(ld).
 snuffer(lm).
 snuffer(nd).
@@ -3313,6 +3657,7 @@ snuffer(nm).
 snuffer(td).
 snuffer(thao).
 snuffer(tm).
+snuffler(an).
 snuffler(ld).
 snuffler(lm).
 snuffler(nd).
@@ -3322,6 +3667,7 @@ snuffler(nm).
 snuffler(td).
 snuffler(thao).
 snuffler(tm).
+socializer(an).
 socializer(ld).
 socializer(lm).
 socializer(nd).
@@ -3333,6 +3679,7 @@ socializer(thao).
 socializer(tm).
 sodbuster(ld).
 sodbuster(lm).
+somebody(an).
 somebody(ld).
 somebody(lm).
 somebody(nd).
@@ -3342,6 +3689,7 @@ somebody(nm).
 somebody(td).
 somebody(thao).
 somebody(tm).
+someone(an).
 someone(ld).
 someone(lm).
 someone(nd).
@@ -3351,6 +3699,7 @@ someone(nm).
 someone(td).
 someone(thao).
 someone(tm).
+sort(an).
 sort(ld).
 sort(lm).
 sort(nd).
@@ -3360,6 +3709,7 @@ sort(nm).
 sort(td).
 sort(thao).
 sort(tm).
+soul(an).
 soul(ld).
 soul(lm).
 soul(nd).
@@ -3369,6 +3719,7 @@ soul(nm).
 soul(td).
 soul(thao).
 soul(tm).
+sounding_board(an).
 sounding_board(ld).
 sounding_board(lm).
 sounding_board(nd).
@@ -3380,6 +3731,7 @@ sounding_board(thao).
 sounding_board(tm).
 sower(ld).
 sower(lm).
+sphinx(an).
 sphinx(ld).
 sphinx(lm).
 sphinx(nd).
@@ -3389,6 +3741,7 @@ sphinx(nm).
 sphinx(td).
 sphinx(thao).
 sphinx(tm).
+spitter(an).
 spitter(ld).
 spitter(lm).
 spitter(nd).
@@ -3398,6 +3751,7 @@ spitter(nm).
 spitter(td).
 spitter(thao).
 spitter(tm).
+sport(an).
 sport(ld).
 sport(lm).
 sport(nd).
@@ -3407,6 +3761,7 @@ sport(nm).
 sport(td).
 sport(thao).
 sport(tm).
+sprawler(an).
 sprawler(ld).
 sprawler(lm).
 sprawler(nd).
@@ -3416,6 +3771,7 @@ sprawler(nm).
 sprawler(td).
 sprawler(thao).
 sprawler(tm).
+spurner(an).
 spurner(ld).
 spurner(lm).
 spurner(nd).
@@ -3425,6 +3781,7 @@ spurner(nm).
 spurner(td).
 spurner(thao).
 spurner(tm).
+squinter(an).
 squinter(ld).
 squinter(lm).
 squinter(nd).
@@ -3436,6 +3793,7 @@ squinter(thao).
 squinter(tm).
 state_capital(gl).
 state_capital(vt).
+stifler(an).
 stifler(ld).
 stifler(lm).
 stifler(nd).
@@ -3445,6 +3803,7 @@ stifler(nm).
 stifler(td).
 stifler(thao).
 stifler(tm).
+stigmatic(an).
 stigmatic(ld).
 stigmatic(lm).
 stigmatic(nd).
@@ -3456,6 +3815,7 @@ stigmatic(thao).
 stigmatic(tm).
 stockman(ld).
 stockman(lm).
+stooper(an).
 stooper(ld).
 stooper(lm).
 stooper(nd).
@@ -3465,6 +3825,7 @@ stooper(nm).
 stooper(td).
 stooper(thao).
 stooper(tm).
+stranger(an).
 stranger(ld).
 stranger(lm).
 stranger(nd).
@@ -3474,6 +3835,7 @@ stranger(nm).
 stranger(td).
 stranger(thao).
 stranger(tm).
+struggler(an).
 struggler(ld).
 struggler(lm).
 struggler(nd).
@@ -3486,6 +3848,7 @@ struggler(tm).
 student(ngan).
 student(nguyen).
 student(thao).
+subject(an).
 subject(ld).
 subject(lm).
 subject(nd).
@@ -3495,6 +3858,7 @@ subject(nm).
 subject(td).
 subject(thao).
 subject(tm).
+supernumerary(an).
 supernumerary(ld).
 supernumerary(lm).
 supernumerary(nd).
@@ -3504,6 +3868,7 @@ supernumerary(nm).
 supernumerary(td).
 supernumerary(thao).
 supernumerary(tm).
+surrenderer(an).
 surrenderer(ld).
 surrenderer(lm).
 surrenderer(nd).
@@ -3513,6 +3878,7 @@ surrenderer(nm).
 surrenderer(td).
 surrenderer(thao).
 surrenderer(tm).
+survivalist(an).
 survivalist(ld).
 survivalist(lm).
 survivalist(nd).
@@ -3522,6 +3888,7 @@ survivalist(nm).
 survivalist(td).
 survivalist(thao).
 survivalist(tm).
+survivor(an).
 survivor(ld).
 survivor(lm).
 survivor(nd).
@@ -3531,6 +3898,7 @@ survivor(nm).
 survivor(td).
 survivor(thao).
 survivor(tm).
+suspect(an).
 suspect(ld).
 suspect(lm).
 suspect(nd).
@@ -3540,6 +3908,7 @@ suspect(nm).
 suspect(td).
 suspect(thao).
 suspect(tm).
+tagger(an).
 tagger(ld).
 tagger(lm).
 tagger(nd).
@@ -3549,6 +3918,7 @@ tagger(nm).
 tagger(td).
 tagger(thao).
 tagger(tm).
+tapper(an).
 tapper(ld).
 tapper(lm).
 tapper(nd).
@@ -3558,6 +3928,7 @@ tapper(nm).
 tapper(td).
 tapper(thao).
 tapper(tm).
+taurus(an).
 taurus(ld).
 taurus(lm).
 taurus(nd).
@@ -3567,6 +3938,7 @@ taurus(nm).
 taurus(td).
 taurus(thao).
 taurus(tm).
+tempter(an).
 tempter(ld).
 tempter(lm).
 tempter(nd).
@@ -3578,6 +3950,7 @@ tempter(thao).
 tempter(tm).
 tenant_farmer(ld).
 tenant_farmer(lm).
+termer(an).
 termer(ld).
 termer(lm).
 termer(nd).
@@ -3587,6 +3960,7 @@ termer(nm).
 termer(td).
 termer(thao).
 termer(tm).
+terror(an).
 terror(ld).
 terror(lm).
 terror(nd).
@@ -3596,6 +3970,7 @@ terror(nm).
 terror(td).
 terror(thao).
 terror(tm).
+testator(an).
 testator(ld).
 testator(lm).
 testator(nd).
@@ -3605,6 +3980,7 @@ testator(nm).
 testator(td).
 testator(thao).
 testator(tm).
+thin_person(an).
 thin_person(ld).
 thin_person(lm).
 thin_person(nd).
@@ -3614,6 +3990,7 @@ thin_person(nm).
 thin_person(td).
 thin_person(thao).
 thin_person(tm).
+third_rater(an).
 third_rater(ld).
 third_rater(lm).
 third_rater(nd).
@@ -3623,6 +4000,7 @@ third_rater(nm).
 third_rater(td).
 third_rater(thao).
 third_rater(tm).
+thrower(an).
 thrower(ld).
 thrower(lm).
 thrower(nd).
@@ -3632,6 +4010,7 @@ thrower(nm).
 thrower(td).
 thrower(thao).
 thrower(tm).
+tiger(an).
 tiger(ld).
 tiger(lm).
 tiger(nd).
@@ -3644,6 +4023,7 @@ tiger(tm).
 tiller(ld).
 tiller(lm).
 tonic(bh).
+totemist(an).
 totemist(ld).
 totemist(lm).
 totemist(nd).
@@ -3653,6 +4033,7 @@ totemist(nm).
 totemist(td).
 totemist(thao).
 totemist(tm).
+toucher(an).
 toucher(ld).
 toucher(lm).
 toucher(nd).
@@ -3667,6 +4048,7 @@ town(nguyen, gl).
 town(thao, vt).
 trader(nd).
 trader(nm).
+transfer(an).
 transfer(ld).
 transfer(lm).
 transfer(nd).
@@ -3676,6 +4058,7 @@ transfer(nm).
 transfer(td).
 transfer(thao).
 transfer(tm).
+transsexual(an).
 transsexual(ld).
 transsexual(lm).
 transsexual(nd).
@@ -3685,6 +4068,7 @@ transsexual(nm).
 transsexual(td).
 transsexual(thao).
 transsexual(tm).
+transvestite(an).
 transvestite(ld).
 transvestite(lm).
 transvestite(nd).
@@ -3694,6 +4078,7 @@ transvestite(nm).
 transvestite(td).
 transvestite(thao).
 transvestite(tm).
+traveler(an).
 traveler(ld).
 traveler(lm).
 traveler(nd).
@@ -3704,6 +4089,7 @@ traveler(td).
 traveler(thao).
 traveler(tm).
 trawler(td).
+trier(an).
 trier(ld).
 trier(lm).
 trier(nd).
@@ -3713,6 +4099,7 @@ trier(nm).
 trier(td).
 trier(thao).
 trier(tm).
+turner(an).
 turner(ld).
 turner(lm).
 turner(nd).
@@ -3722,6 +4109,7 @@ turner(nm).
 turner(td).
 turner(thao).
 turner(tm).
+tyrant(an).
 tyrant(ld).
 tyrant(lm).
 tyrant(nd).
@@ -3734,6 +4122,7 @@ tyrant(tm).
 underachiever(ngan).
 underachiever(nguyen).
 underachiever(thao).
+undoer(an).
 undoer(ld).
 undoer(lm).
 undoer(nd).
@@ -3743,6 +4132,7 @@ undoer(nm).
 undoer(td).
 undoer(thao).
 undoer(tm).
+unfortunate(an).
 unfortunate(ld).
 unfortunate(lm).
 unfortunate(nd).
@@ -3752,6 +4142,7 @@ unfortunate(nm).
 unfortunate(td).
 unfortunate(thao).
 unfortunate(tm).
+unskilled_person(an).
 unskilled_person(ld).
 unskilled_person(lm).
 unskilled_person(nd).
@@ -3761,6 +4152,7 @@ unskilled_person(nm).
 unskilled_person(td).
 unskilled_person(thao).
 unskilled_person(tm).
+unwelcome_person(an).
 unwelcome_person(ld).
 unwelcome_person(lm).
 unwelcome_person(nd).
@@ -3772,6 +4164,7 @@ unwelcome_person(thao).
 unwelcome_person(tm).
 urban_center(gl).
 urban_center(vt).
+user(an).
 user(ld).
 user(lm).
 user(nd).
@@ -3781,6 +4174,7 @@ user(nm).
 user(td).
 user(thao).
 user(tm).
+vanisher(an).
 vanisher(ld).
 vanisher(lm).
 vanisher(nd).
@@ -3790,6 +4184,7 @@ vanisher(nm).
 vanisher(td).
 vanisher(thao).
 vanisher(tm).
+victim(an).
 victim(ld).
 victim(lm).
 victim(nd).
@@ -3799,6 +4194,7 @@ victim(nm).
 victim(td).
 victim(thao).
 victim(tm).
+victorian(an).
 victorian(ld).
 victorian(lm).
 victorian(nd).
@@ -3808,6 +4204,7 @@ victorian(nm).
 victorian(td).
 victorian(thao).
 victorian(tm).
+virgo(an).
 virgo(ld).
 virgo(lm).
 virgo(nd).
@@ -3817,6 +4214,7 @@ virgo(nm).
 virgo(td).
 virgo(thao).
 virgo(tm).
+visionary(an).
 visionary(ld).
 visionary(lm).
 visionary(nd).
@@ -3826,6 +4224,7 @@ visionary(nm).
 visionary(td).
 visionary(thao).
 visionary(tm).
+visually_impaired_person(an).
 visually_impaired_person(ld).
 visually_impaired_person(lm).
 visually_impaired_person(nd).
@@ -3835,6 +4234,7 @@ visually_impaired_person(nm).
 visually_impaired_person(td).
 visually_impaired_person(thao).
 visually_impaired_person(tm).
+waiter(an).
 waiter(ld).
 waiter(lm).
 waiter(nd).
@@ -3844,6 +4244,7 @@ waiter(nm).
 waiter(td).
 waiter(thao).
 waiter(tm).
+waker(an).
 waker(ld).
 waker(lm).
 waker(nd).
@@ -3853,6 +4254,7 @@ waker(nm).
 waker(td).
 waker(thao).
 waker(tm).
+walk_in(an).
 walk_in(ld).
 walk_in(lm).
 walk_in(nd).
@@ -3862,6 +4264,7 @@ walk_in(nm).
 walk_in(td).
 walk_in(thao).
 walk_in(tm).
+wanter(an).
 wanter(ld).
 wanter(lm).
 wanter(nd).
@@ -3871,6 +4274,7 @@ wanter(nm).
 wanter(td).
 wanter(thao).
 wanter(tm).
+ward(an).
 ward(ld).
 ward(lm).
 ward(nd).
@@ -3880,6 +4284,7 @@ ward(nm).
 ward(td).
 ward(thao).
 ward(tm).
+warrior(an).
 warrior(ld).
 warrior(lm).
 warrior(nd).
@@ -3889,6 +4294,7 @@ warrior(nm).
 warrior(td).
 warrior(thao).
 warrior(tm).
+watcher(an).
 watcher(ld).
 watcher(lm).
 watcher(nd).
@@ -3898,6 +4304,7 @@ watcher(nm).
 watcher(td).
 watcher(thao).
 watcher(tm).
+weakling(an).
 weakling(ld).
 weakling(lm).
 weakling(nd).
@@ -3907,6 +4314,7 @@ weakling(nm).
 weakling(td).
 weakling(thao).
 weakling(tm).
+weasel(an).
 weasel(ld).
 weasel(lm).
 weasel(nd).
@@ -3916,6 +4324,7 @@ weasel(nm).
 weasel(td).
 weasel(thao).
 weasel(tm).
+white(an).
 white(ld).
 white(lm).
 white(nd).
@@ -3926,6 +4335,7 @@ white(td).
 white(thao).
 white(tm).
 wife(tm).
+wiggler(an).
 wiggler(ld).
 wiggler(lm).
 wiggler(nd).
@@ -3935,6 +4345,7 @@ wiggler(nm).
 wiggler(td).
 wiggler(thao).
 wiggler(tm).
+winker(an).
 winker(ld).
 winker(lm).
 winker(nd).
@@ -3947,6 +4358,7 @@ winker(tm).
 withdrawer(ngan).
 withdrawer(nguyen).
 withdrawer(thao).
+withholder(an).
 withholder(ld).
 withholder(lm).
 withholder(nd).
@@ -3956,6 +4368,7 @@ withholder(nm).
 withholder(td).
 withholder(thao).
 withholder(tm).
+witness(an).
 witness(ld).
 witness(lm).
 witness(nd).
@@ -3966,6 +4379,7 @@ witness(td).
 witness(thao).
 witness(tm).
 woman_of_the_house(tm).
+worker(an).
 worker(ld).
 worker(lm).
 worker(nd).
@@ -3975,6 +4389,7 @@ worker(nm).
 worker(td).
 worker(thao).
 worker(tm).
+worldling(an).
 worldling(ld).
 worldling(lm).
 worldling(nd).
@@ -3987,6 +4402,7 @@ worldling(tm).
 wykehamist(ngan).
 wykehamist(nguyen).
 wykehamist(thao).
+yawner(an).
 yawner(ld).
 yawner(lm).
 yawner(nd).
